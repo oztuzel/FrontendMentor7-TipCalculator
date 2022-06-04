@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left:50px;
+  font-size: 18px;
+  line-height: 4px;
+  position: relative;
+}
+
+.container span {
+  color: hsl(184, 14%, 56%);
+  font-size: 16px;
+}
+
+.tip {
+  position: relative;
+  top:40px;
+  width:350px;
+}
+
+.tipPassage {
+  position: relative;
+}
+
+.dolar {
+  position: relative;
+  left:200px;
+  top:-14px;
+  font-size: 42px;
+  color: hsl(172, 67%, 45%);
+}
+
+.total {
+  position: relative;
+  top:6px;
+}
+
+.totalPassage {
+  position: relative;
+}
+
+.totalDolar {
+  position: relative;
+  left:200px;
+  top:-54px;
+  font-size: 42px;
+  color: hsl(172, 67%, 45%);
+  width: 200px;
+  
+}
+
+.resetButton {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  font-weight:bolder;
+  height: 50px;
+  border-radius: 8px;
+  width: 330px;
+  font-size: 16px;
+  position: relative;
+  top:45px;
+  border: none;
+}
+
+@media (max-width:650px) {
+  .container{
+    width: 600px;
+    padding-left: 100px;
+    line-height: 10px;
+    font-size: 22px;
+  }
+
+  .container span {
+    font-size: 20px;
+  }
+  
+  .dolar {
+    font-size: 50px;
+    top:-38px
+  }
+
+  .totalDolar {
+    font-size: 50px;
+    top:-80px
+  }
+
+  .total {
+    top:-8px
+  }
+
+  .resetButton {
+    top:-60px;
+    height: 80px;
+    width: 400px;
+    left: -20px;
+  }
+}
+

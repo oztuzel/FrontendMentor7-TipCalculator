@@ -1,0 +1,24 @@
+.button {
+  color: white;
+  background-color: hsl(183, 100%, 15%);
+  width: 125px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.button:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+@media (max-width:650px) {
+  .button {
+    width: 220px;
+  }
+}
