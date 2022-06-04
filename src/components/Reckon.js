@@ -16,7 +16,7 @@ function Reckon({fetchValues, resetValues}) {
   }
 
   const peopleChangeHandler = (event) => {
-    if(event.target.value != 0){
+    if(event.target.value !== 0){
       setPeopleValue(event.target.value);
       setIsValidPeople(true);
     }else{
@@ -38,7 +38,7 @@ function Reckon({fetchValues, resetValues}) {
 
   useEffect(() => {
     fetchValues(values); 
-  },[values,fetchValues])
+  },[billValue,peopleValue,clickedButtonValue,fetchValues])
 
 
   return (
